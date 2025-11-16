@@ -1,4 +1,4 @@
-body {
+        body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             display: flex;
@@ -50,8 +50,6 @@ body {
             background-color: #4cae4c;
         }
 
-        /* --- Task List Styles --- */
-
         #taskList {
             list-style: none;
             padding: 0;
@@ -91,7 +89,6 @@ body {
             text-align: right;
         }
 
-        /* --- Action Buttons --- */
 
         .actions button {
             padding: 8px 12px;
@@ -105,6 +102,7 @@ body {
         .complete-btn {
             background-color: #0275d8;
             color: white;
+
         }
 
         .delete-btn {
@@ -116,7 +114,6 @@ body {
             opacity: 0.8;
         }
 
-        /* Style for completed tasks */
         .completed {
             background-color: #e6ffe6 !important; 
             border-left: 5px solid #5cb85c;
@@ -126,7 +123,6 @@ body {
             color: #5cb85c; 
         }
 
-        /* NEW: Style for overdue tasks */
         .overdue {
             background-color: #ffe6e6 !important; /* Light red background */
             border-left: 5px solid #d9534f;
